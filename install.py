@@ -1,7 +1,12 @@
 #!/home/gussjo/miniconda3/bin/python
 import os
 
-installer_names = os.listdir('installers')
-print(installer_names)
-installer = installer_names[0]
-os.system('installers/'+installer)
+# These must be installed first
+installers = os.listdir('init_installers')
+for installer in installers:
+    os.system('installers/'+installer)
+
+# Then do the rest
+installers = os.listdir('installers')
+for installer in installers:
+    os.system('installers/'+installer)
