@@ -1,7 +1,9 @@
 [general]
 abbreviate-tab-names=false
 compat-delete='delete-sequence'
+default-shell='/bin/zsh'
 display-n=0
+gtk-prefer-dark-theme=false
 gtk-theme-name='Pop-dark'
 history-size=1000
 infinite-history=true
@@ -16,6 +18,7 @@ save-tabs-when-changed=true
 scroll-keystroke=true
 start-fullscreen=false
 use-default-font=true
+use-login-shell=true
 use-popup=true
 use-scrollbar=true
 use-trayicon=true
@@ -36,6 +39,8 @@ focus-terminal-down='<Alt>s'
 focus-terminal-left='<Alt>a'
 focus-terminal-right='<Alt>d'
 focus-terminal-up='<Alt>w'
+next-tab='<Alt>e'
+previous-tab='<Alt>q'
 split-tab-horizontal='<Primary><Shift>e'
 split-tab-vertical='<Primary><Shift>d'
 
@@ -44,5 +49,5 @@ transparency=80
 
 [style/font]
 allow-bold=true
-palette='#000000000000:#FFFF60605A5A:#B1B1E8E86969:#EAEAD8D89C9C:#5D5DA9A9F6F6:#E8E86A6AFFFF:#8282FFFFF6F6:#DEDED9D9CECE:#313131313131:#F5F58B8B7F7F:#DCDCF8F88F8F:#EEEEE5E5B2B2:#A5A5C7C7FFFF:#DDDDAAAAFFFF:#B6B6FFFFF9F9:#FEFEFFFFFEFE:#DEDED9D9CECE:#171717171717'
-palette-name='Wombat'
+palette='#000000000000:#FFFF55555555:#5050FAFA7B7B:#F1F1FAFA8C8C:#BDBD9393F9F9:#FFFF7979C6C6:#8B8BE9E9FDFD:#BBBBBBBBBBBB:#555555555555:#FFFF55555555:#5050FAFA7B7B:#F1F1FAFA8C8C:#BDBD9393F9F9:#FFFF7979C6C6:#8B8BE9E9FDFD:#FFFFFFFFFFFF:#F8F8F8F8F2F2:#1E1E1F1F2828'
+palette-name='Dracula'
